@@ -17,9 +17,9 @@
 
 ---
 
-For years it felt like a locked door: *man, I wish I could actually build the things in my head.* Turns out the key was plain English. Now I just say what I want, obsess over how it should behave, and [Claude Code](https://claude.com/claude-code) builds it with me — honestly, **English might be the best programming language I've ever used, and I'm having a blast.**
+I'm a builder who codes in plain English. I say what I want, shape how it should think and behave, and ship it with [Claude Code](https://claude.com/claude-code). Almost everything here began as a real problem in my day and became a tool I actually use.
 
-Every project here started as a real problem I ran into — at work, in my notes, somewhere in my day — and turned into a tool that actually runs. This is what the democratization of tech feels like from the inside, and I'm all in for it.
+What I find genuinely exciting: building good software is starting to depend less on a CS degree and more on clear thinking and taste — and I'm building like that future is already here.
 
 Most of these are **generic, open-sourced versions of internal tooling and skills I build and use locally** for real operational and process work — sanitized (synthetic data, no proprietary logic) and generalized so anyone, including me, can reuse them via Claude Code.
 

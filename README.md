@@ -17,7 +17,9 @@
 
 ---
 
-I build AI tools — but I'm **not a software engineer, and I'm not pretending to be one.** I'm a heavy Claude user and a *vibe coder*: I'm good at talking to LLMs, figuring out how an agent should think and act, and using [Claude Code](https://claude.com/claude-code) to turn that into something that actually runs. The projects here are real and they work — the quality comes from taste and a lot of iterating, not from a CS background.
+For years it felt like a locked door: *man, I wish I could actually build the things in my head.* Turns out the key was plain English. Now I just say what I want, obsess over how it should behave, and [Claude Code](https://claude.com/claude-code) builds it with me — honestly, **English might be the best programming language I've ever used, and I'm having a blast.**
+
+Every project here started as a real problem I ran into — at work, in my notes, somewhere in my day — and turned into a tool that actually runs. This is what the democratization of tech feels like from the inside, and I'm all in for it.
 
 Most of these are **generic, open-sourced versions of internal tooling and skills I build and use locally** for real operational and process work — sanitized (synthetic data, no proprietary logic) and generalized so anyone, including me, can reuse them via Claude Code.
 
@@ -57,13 +59,6 @@ Most of these are **generic, open-sourced versions of internal tooling and skill
 | --- | --- |
 | **[second-brain-os](https://github.com/schuligan/second-brain-os)** | A Markdown/Obsidian **second brain** with agentic capture: auto-tag, suggest `[[wikilinks]]`, embeddings search, and daily-note synthesis (approval-gated writes). |
 | **[claude-skills-collection](https://github.com/schuligan/claude-skills-collection)** | 12 reusable **Claude Code skills** — planning, QA, BRD authoring, process-flow diagrams, Figma mockups, Notion templating, tracker QA, and more. Drop-in `SKILL.md` files. |
-
-## 🧰 How I work
-
-- **Claude is my main tool** — I build with it every day. I'll reach for an open model now and then (one of my projects even helps pick the right model for a task), but Claude is home base.
-- **I think in systems, not syntax** — what should the agent do, what's it allowed to touch, where does a person need to stay in the loop, and how do I know it actually worked.
-- **I work through patterns, not low-level code** — retrieval (RAG), tool use / MCP, structured outputs, prompt evals, human-in-the-loop — and let Claude Code handle the implementation while I steer and review.
-- Everything here uses **made-up sample data** and is honest about what's a quick demo versus a real, working system.
 
 ## 📫 Elsewhere
 

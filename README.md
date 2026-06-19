@@ -10,11 +10,18 @@
   <img alt="Prompt Engineering" src="https://img.shields.io/badge/Prompt_Engineering-evals_%26_regression-db61a2?style=flat-square">
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/prateekjha6/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.youtube.com/@Beatoid"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Beatoid-FF0000?style=flat-square&logo=youtube&logoColor=white"></a>
+</p>
+
 ---
 
-I'm a **GenAI power-user and prompt/agent engineer** — a tasteful "vibe coder" who ships real, working AI tools with [Claude Code](https://claude.com/claude-code). I'm not a career software engineer and I don't pretend to be one; my edge is **systems thinking, prompt rigor, and taste** — designing agent loops, retrieval pipelines, and human-in-the-loop workflows that actually run.
+I'm a **GenAI power-user and prompt/agent engineer** who ships real, working AI tools with [Claude Code](https://claude.com/claude-code). I'm not a career software engineer and I don't pretend to be — my edge is **systems thinking, prompt rigor, and taste**: designing agent loops, retrieval pipelines, and human-in-the-loop workflows that actually run.
 
-Everything here is a **personal, AI-assisted project**. The code is real and runnable, the sample data is synthetic, and the READMEs are honest about what's a demo versus a system.
+> **Start here →** [operations-knowledge-copilot](https://github.com/schuligan/operations-knowledge-copilot) (RAG + cited answers + human-reviewed write-back) and [prompt-library](https://github.com/schuligan/prompt-library) (prompt engineering with an eval harness). They're the fastest read on how I think.
+
+<sub>📦 11 open-source projects · ▶️ every one runs offline with no API key (labeled mock mode) · ✅ tests, a Mermaid architecture diagram, and an implementation plan in each · 🔒 synthetic data only.</sub>
 
 ## 🛠️ What I build
 
@@ -49,18 +56,16 @@ Everything here is a **personal, AI-assisted project**. The code is real and run
 | **[second-brain-os](https://github.com/schuligan/second-brain-os)** | A Markdown/Obsidian **second brain** with agentic capture: auto-tag, suggest `[[wikilinks]]`, embeddings search, and daily-note synthesis (approval-gated writes). |
 | **[claude-skills-collection](https://github.com/schuligan/claude-skills-collection)** | 12 reusable **Claude Code skills** — planning, QA, BRD authoring, process-flow diagrams, Figma mockups, Notion templating, tracker QA, and more. Drop-in `SKILL.md` files. |
 
-<sub>Every repo runs offline in a labeled mock mode (no API key needed), ships with tests, an implementation plan, and a Mermaid architecture diagram, and uses only synthetic sample data.</sub>
+## 🧰 How I work
 
-## 🧰 Stack &amp; signals
-
-- **Models:** Anthropic Claude (Opus / Sonnet / Haiku), provider-agnostic config where it's cheap to add
-- **Patterns:** RAG (Chroma / pgvector), agentic orchestration, **MCP** tool layers, structured outputs, human-in-the-loop, eval/regression harnesses
-- **Languages &amp; tools:** Python, TypeScript where a UI earns it, Mermaid for architecture, synthetic data for safe demos
+- **Models:** Anthropic Claude (Opus / Sonnet / Haiku), with provider-agnostic config and a [router](https://github.com/schuligan/model-router) that reaches for open models (GLM, Llama, DeepSeek) when they're the right call.
+- **Patterns:** RAG (Chroma / pgvector), agentic orchestration, **MCP** tool layers, structured outputs, **human-in-the-loop** gates, and **eval / regression** harnesses for prompts.
+- **Defaults:** offline-first (mock mode, no key needed to try anything), guardrails before autonomy, audit logs over trust, synthetic data over real, honest READMEs over hype.
 
 ## 📫 Elsewhere
 
-- 🎛️ YouTube — [Beatoid](https://www.youtube.com/@Beatoid) (generative / creative audio)
-- 💼 LinkedIn — <!-- TODO: add your LinkedIn URL here -->
+- 💼 LinkedIn — **[in/prateekjha6](https://www.linkedin.com/in/prateekjha6/)**
+- 🎛️ YouTube — **[Beatoid](https://www.youtube.com/@Beatoid)** (generative / creative audio)
 - 🐙 GitHub — you're looking at it
 
 <sub>Built with Claude Code. AI-assisted, personal projects — claims of capability, not enterprise scale.</sub>

@@ -17,9 +17,11 @@
 
 ---
 
-I'm a builder who codes in plain English. I say what I want, shape how it should think and behave, and ship it with [Claude Code](https://claude.com/claude-code). Almost everything here began as a real problem in my day and became a tool I actually use.
+> *"The hottest new programming language is English."* — [Andrej Karpathy](https://x.com/karpathy/status/1617979122625712128)
 
-What I find genuinely exciting: building good software is starting to depend less on a CS degree and more on clear thinking and taste — and I'm building like that future is already here.
+He nailed it, and I'm living it.
+
+I make AI do useful things — turning messy operational problems into working tools by day, and music as **[Beatoid](https://www.youtube.com/@Beatoid)** on the side. I describe what I want in plain English and build it with [Claude Code](https://claude.com/claude-code) — no CS degree, just clear thinking, taste, and a lot of iterating.
 
 Most of these are **generic, open-sourced versions of internal tooling and skills I build and use locally** for real operational and process work — sanitized (synthetic data, no proprietary logic) and generalized so anyone, including me, can reuse them via Claude Code.
 

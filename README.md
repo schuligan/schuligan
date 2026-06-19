@@ -19,6 +19,8 @@
 
 I'm a **GenAI power-user and prompt/agent engineer** who ships real, working AI tools with [Claude Code](https://claude.com/claude-code). I'm not a career software engineer and I don't pretend to be — my edge is **systems thinking, prompt rigor, and taste**: designing agent loops, retrieval pipelines, and human-in-the-loop workflows that actually run.
 
+Most of these are **generic, open-sourced versions of internal tooling and skills I build and use locally** for real operational and process work — sanitized (synthetic data, no proprietary logic) and generalized so anyone, including me, can reuse them via Claude Code.
+
 > **Start here →** [operations-knowledge-copilot](https://github.com/schuligan/operations-knowledge-copilot) (RAG + cited answers + human-reviewed write-back) and [prompt-library](https://github.com/schuligan/prompt-library) (prompt engineering with an eval harness). They're the fastest read on how I think.
 
 <sub>📦 11 open-source projects · ▶️ every one runs offline with no API key (labeled mock mode) · ✅ tests, a Mermaid architecture diagram, and an implementation plan in each · 🔒 synthetic data only.</sub>

@@ -23,7 +23,7 @@ Everything here is a **personal, AI-assisted project**. The code is real and run
 | Project | What it is |
 | --- | --- |
 | **[operations-knowledge-copilot](https://github.com/schuligan/operations-knowledge-copilot)** ⭐ | A retrieval-augmented team knowledge copilot: ingest docs → embed → **cited** Q&A → **human-reviewed write-back** with an audit log. Runs fully offline in mock mode; Claude-powered with a key. |
-| **[prompt-library](https://github.com/schuligan/prompt-library)** ⭐ | A versioned library of system prompts and patterns with a **tiny eval harness** that A/B-scores prompt variants against golden inputs. Prompt engineering with regression tests. |
+| **[prompt-library](https://github.com/schuligan/prompt-library)** ⭐ | A versioned library of system prompts and patterns with a **tiny eval harness** that A/B-scores prompt variants against golden inputs, plus a **prompt-improver** (diagnose → rewrite → explain any weak prompt). Prompt engineering with regression tests. |
 
 **Agents &amp; automation**
 
@@ -34,12 +34,20 @@ Everything here is a **personal, AI-assisted project**. The code is real and run
 | **[doc-triage-hitl](https://github.com/schuligan/doc-triage-hitl)** | LLM document triage with a **human-in-the-loop queue**: classify into a taxonomy, auto-handle routine items, route exceptions to a human, full audit log. |
 | **[agentic-pipeline-starter](https://github.com/schuligan/agentic-pipeline-starter)** | A clone-and-extend **multi-agent scaffold**: orchestrator + specialists, MCP tool wiring, shared memory, safety gates, JSONL run tracing. |
 
+**Infra &amp; engineering**
+
+| Project | What it is |
+| --- | --- |
+| **[model-router](https://github.com/schuligan/model-router)** | Pick the right LLM per task: score task signals against a model registry (Claude, GLM, Llama, DeepSeek, GPT) → **select or propose** a model. Provider-agnostic, cost-aware. |
+| **[nightshift](https://github.com/schuligan/nightshift)** | A constrained **autonomous agent-loop harness** — run an agent unsupervised inside hard guardrails: allow-list, max iterations, cost cap, time window, dry-run, audit log. |
+| **[agentic-test-runner](https://github.com/schuligan/agentic-test-runner)** | Spec → **generated test cases** → tracker tickets → agents execute → report. Provider-agnostic tracker with a Linear adapter. |
+
 **Knowledge &amp; tooling**
 
 | Project | What it is |
 | --- | --- |
 | **[second-brain-os](https://github.com/schuligan/second-brain-os)** | A Markdown/Obsidian **second brain** with agentic capture: auto-tag, suggest `[[wikilinks]]`, embeddings search, and daily-note synthesis (approval-gated writes). |
-| **[claude-skills-collection](https://github.com/schuligan/claude-skills-collection)** | Reusable **Claude Code skills** for planning, QA, process-flow diagrams, status reports, and comms — drop-in `SKILL.md` files. |
+| **[claude-skills-collection](https://github.com/schuligan/claude-skills-collection)** | 12 reusable **Claude Code skills** — planning, QA, BRD authoring, process-flow diagrams, Figma mockups, Notion templating, tracker QA, and more. Drop-in `SKILL.md` files. |
 
 <sub>Every repo runs offline in a labeled mock mode (no API key needed), ships with tests, an implementation plan, and a Mermaid architecture diagram, and uses only synthetic sample data.</sub>
 
